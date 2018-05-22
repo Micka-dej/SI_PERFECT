@@ -1,0 +1,8 @@
+.header {
+  font-size: 1.4rem;
+  @include for-size(tablet-portrait-up) {
+    font-size: 1.6rem;
+  }
+
+
+}
