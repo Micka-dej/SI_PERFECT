@@ -1,12 +1,26 @@
 .homestats {
   width: 90%;
-  margin: 30px auto  auto;
+  margin: 30px auto 0 auto;
   position: relative;
   z-index: 1;
+  &-bgTitle {
+    display: none;
+    @include for-size(desktop-up) {
+      display: block;
+      font-size: 64px;
+      color: rgba( 0, 0, 0, 0.2);
+      position: absolute;
+      left: 15%;
+      top: 9%;
+    }
+  }
   &-logo {
     margin: 20px auto 0px auto;
     width: 50px;
     height: 50px;
+    @include for-size(tablet-portrait-up) {
+      margin: 30px auto;
+    }
   }
   &-reverse {
     @include for-size(tablet-portrait-up) {
@@ -41,6 +55,11 @@
       height: 330px;
       margin: 0 auto;
       box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+      @include for-size(tablet-portrait-up) {
+        width: 320px;
+        height: 453px;
+      }
+
     }
     &-text {
       font-size: 9px;
@@ -52,16 +71,18 @@
     text-align: center;
     font-size: 10px;
     @include for-size(tablet-portrait-up) {
-      margin-top: 80px;
+      margin-top: 100px;
+      text-align: left;
+      font-size: 14px;
     }
     &-title {
       font-size: 18px;
       line-height: 24px;
-      text-align: center;
       position: relative;
       margin-bottom: 12px;
       @include for-size(tablet-portrait-up) {
         font-size: 25px;
+        margin: 20px 0;
       }
       &::after {
         content: "";
@@ -72,16 +93,44 @@
         left: 50%;
         transform: translateX(-50%);
         top: 120%;
+        @include for-size(tablet-portrait-up) {
+          left: 10%;
+        }
       }
     }
     &-firstPar {
       line-height: 15px;
-      text-align: center;
       margin-bottom: 20px;
     }
     &-listItem {
       line-height: 18px;
       text-align: left;
+    }
+    &-deskTitle {
+      display: none;
+      @include for-size(tablet-portrait-up) {
+        display: block;
+        position: relative;
+        font-size: 25px;
+        margin-top: 20px;
+        &::after {
+          content: "";
+          position: absolute;
+          width: 60px;
+          height: 1px;
+          background: #50E3C2;
+          left: 8%;
+          top: 120%;
+        }
+      }
+    }
+    &-deskItem {
+      display: none;
+      @include for-size(tablet-portrait-up) {
+        display: block;
+        font-size: 14px;
+        margin: 20px 0 0 60px;
+      }
     }
   }
   &-travel {
@@ -132,16 +181,18 @@
     margin-top: 70px;
     font-size: 10px;
     @include for-size(tablet-portrait-up) {
-      margin-top: 80px;
+      margin-top: 100px;
+      font-size: 14px;
     }
     &-title {
-      font-size: 18px;
+      font-size: 25px;
       line-height: 24px;
       text-align: center;
       position: relative;
       margin-bottom: 12px;
       @include for-size(tablet-portrait-up) {
         font-size: 25px;
+        text-align: left;
       }
       &::after {
         content: "";
@@ -152,6 +203,9 @@
         left: 50%;
         transform: translateX(-50%);
         top: 120%;
+        @include for-size(tablet-portrait-up) {
+          left: 8%;
+        }
       }
     }
     &-secondPar {
