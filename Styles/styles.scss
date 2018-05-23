@@ -4,9 +4,11 @@
 @import './components/header';
 @import './components/homeStats';
 @import './components/footer';
+@import './components/contact';
 
 body {
   width: 100%;
+  background-color: #fff;
 }
 
 * {
