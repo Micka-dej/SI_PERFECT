@@ -13,5 +13,8 @@
     "auto-prefixer": "^0.4.2",
     "node-sass": "^4.7.2",
     "parcel-bundler": "^1.6.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^8.5.0"
   }
 }

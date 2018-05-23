@@ -1,8 +1,25 @@
-.header {
-  font-size: 1.4rem;
-  @include for-size(tablet-portrait-up) {
-    font-size: 1.6rem;
-  }
+.background {
+  height: 100vh;
+  width: 100%;
+  background-image: url("img/boby.png");
+  background-size: 100% 100%;
+  background-repeat: round;
+}
 
+.Header {
+  padding-top: 40px;
+  margin: 0 auto;
+  text-align: center;
+  height: 150px;
+  width: 100%;
 
+&-logo {
+  margin: 0 auto;
+}
+
+&-title {
+  color: #fff;
+  text-align: center;
+  font-size: 2rem;
+}
 }
