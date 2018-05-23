@@ -1,9 +1,19 @@
 @import './global/reset';
 @import './global/variables';
-@import './mixins/responcive';
-@import './compontents/header';
-
+@import './mixins/responsive';
+@import './components/header';
+@import './components/homeStats.scss';
 
 body {
-  background: #B9B9B9;
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.siteContent {
+  width: 100%;
+  background: #fefefe;
+  overflow-x: hidden;
 }

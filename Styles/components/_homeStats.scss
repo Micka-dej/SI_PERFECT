@@ -1,0 +1,68 @@
+.homestats {
+  width: 90%;
+  margin: 0 auto;
+  &-logo {
+    margin: 40px auto 0 auto;
+    width: 50px;
+    height: 50px;
+  }
+  &-travelyear {
+    margin: 80px auto 0 auto;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    &::before, &::after {
+      content: "";
+      z-index: -1;
+      position: absolute;
+      width: 200%;
+      height: 8px;
+      background: black;
+      left: -50%;
+      top: 40%;
+      transform: RotateZ(-40deg);
+    }
+    &::after {
+      top: 46%;
+    }
+    &-img {
+      width: 220px;
+      height: 330px;
+      margin: 0 auto;
+      box-shadow: 1px 1px 1px 1px lightgrey;
+    }
+    &-text {
+      font-size: 9px;
+      line-height: 14px;
+    }
+  }
+  &-texts {
+    margin-top: 50px;
+    &-title {
+      font-size: 18px;
+      line-height: 30px;
+      text-align: center;
+      position: relative;
+      &::after {
+        content: "";
+        position: absolute;
+        background-color: #50E3C2;
+        width: 60px;
+        height: 2px;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 100%;
+      }
+    }
+    &-par {
+      font-size: 10px;
+      line-height: 15px;
+      text-align: center;
+    }
+    &-listItem {
+      margin-top: 0px;
+      font-size: 100px;
+      line-height: 15px;
+    }
+  }
+}
