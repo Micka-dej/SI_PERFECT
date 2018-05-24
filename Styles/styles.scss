@@ -6,13 +6,11 @@
 @import './components/menu';
 @import './components/chiffre';
 @import './components/footer';
-<<<<<<< HEAD
 @import './components/contactDesktop';
 @import './components/top100';
-=======
 @import './components/contact';
-@import './components/partners.scss';
->>>>>>> f7ef8342358525007e508d5b9872e00793eed82c
+@import './components/partners';
+
 
 body {
   width: 100%;
@@ -27,5 +25,4 @@ body {
   width: 100%;
   background: #fefefe;
   overflow-x: hidden;
-}
 }
