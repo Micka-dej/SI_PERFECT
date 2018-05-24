@@ -7,16 +7,18 @@
 @import './components/chiffre';
 @import './components/footer';
 @import './components/contactDesktop';
+@import './components/partners';
 @import './components/top100';
 @import './components/contact';
-@import './components/partners';
+
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display');
 
 
 body {
   width: 100%;
   background-color: #fefefe;
-  font-family: 'Avenir'
+  font-family: 'Avenir';
+  overflow-x: hidden;
 }
 
 * {
@@ -26,5 +28,4 @@ body {
 .siteContent {
   width: 100%;
   background: #fefefe;
-  overflow-x: hidden;
 }
