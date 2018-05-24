@@ -67,26 +67,27 @@
         height: 150px;
       }
       &-content {
-        &-title {
-          display: flex;
-          justify-content: space-around;
-          margin: 10px auto;
-          font-size: 18px;
-          line-height: 27px;
-          @include for-size(desktop-up) {
-            margin: 10px auto 20px auto;
-          }
+        margin-top: 10px;
+      }
+      &-title {
+        display: flex;
+        justify-content: space-around;
+        margin: 10px auto;
+        font-size: 18px;
+        line-height: 27px;
+        @include for-size(desktop-up) {
+          margin: 10px auto 20px auto;
         }
-        &-texts {
-          font-size: 12px;
-          line-height: 18px;
-        }
-        &-company {
-          margin-top: 10px;
-          font-style: italic;
-          @include for-size(desktop-up) {
-            margin-top: 30px;
-          }
+      }
+      &-texts {
+        font-size: 12px;
+        line-height: 18px;
+      }
+      &-company {
+        margin-top: 10px;
+        font-style: italic;
+        @include for-size(desktop-up) {
+          margin-top: 30px;
         }
       }
     }
