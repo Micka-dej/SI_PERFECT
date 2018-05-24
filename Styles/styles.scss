@@ -10,11 +10,13 @@
 @import './components/top100';
 @import './components/contact';
 @import './components/partners';
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
 
 
 body {
   width: 100%;
   background-color: #fefefe;
+  font-family: 'Avenir'
 }
 
 * {
