@@ -71,7 +71,7 @@
     text-align: center;
     font-size: 10px;
     @include for-size(tablet-portrait-up) {
-      margin-top: 100px;
+      margin-top: 0px;
       text-align: left;
       font-size: 14px;
     }
