@@ -1,5 +1,5 @@
 @mixin for-size($range) {
-  $phone-upper-boundary: $bp-tablet;
+  $phone-upper-boundary: 640px;
   $tablet-portrait-upper-boundary: $bp-desktop;
   $tablet-landscape-upper-boundary: $bp-desktop-large;
   $desktop-upper-boundary: $bp-desktop-extra-large;
