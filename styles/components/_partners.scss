@@ -10,9 +10,15 @@
   padding: 30px;
   }
 
+ &-Container {
 
+}
   &-text {
+    font-size: 0.8rem;
     padding: 10px;
+    @include for-size(tablet-portrait-up) {
+     text-align: left;
+    }
   }
 
   &-logo {
@@ -141,17 +147,21 @@
       margin: 0 auto;
       box-shadow: 1px 1px 1px 1px rgba(80,80,80,0.4);
       border-radius: 5px;
+      width: 80%;
       @include for-size(tablet-portrait-up) {
-      width: 50%;
+      width: 75%;
      float: right;
    }
 
-      &-container {
-       &-text {
+      &-Container {
+         padding: 30px;
          text-align: left;
-         margin-top: 30px;
-         margin-bottom: 30px;
-       }
+         font-size: 1.2rem;
+         @include for-size(tablet-portrait-up) {
+           text-align: left;
+            margin-left: 30px;
+         font-size: 1.2rem;
+         }
       }
 
       &-select {
@@ -159,7 +169,7 @@
         width: 80%;
         height: 25px;
         border-radius: 5px;
-        border: 2px solid black;
+        border: 2px solid #78909c;
         font-size: 11px;
         &:hover {
           box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.2);
@@ -170,7 +180,7 @@
         width: 80%;
         height: 25px;
         margin: 0 auto 12px auto;
-        border: 2px solid black;
+        border: 2px solid #78909c;
         font-size: 11px;
         padding: 0 5px;
         &:hover {
@@ -182,7 +192,7 @@
         width: 80%;
         height: 130px;
         margin: 0 auto;
-        border: 2px solid black;
+        border: 2px solid #78909c;
         font-size: 11px;
         &:hover {
           box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.2);
@@ -194,7 +204,7 @@
         height: 30px;
         font-size: 11px;
         margin: 20px auto 40px auto;
-        border: 2px solid black;
+        border: 2px solid #78909c;
         background: #fff;
         border-radius: 5px;
         &:hover {
