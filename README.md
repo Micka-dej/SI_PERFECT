@@ -5,6 +5,7 @@
 * marketing
   - étude de la concurrence
   - les cibles et pourquoi?
+  - les + de notre site
 * techno utilisés
 
 ## demo
