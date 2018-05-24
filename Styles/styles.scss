@@ -3,9 +3,14 @@
 @import './mixins/responsive';
 @import './components/header';
 @import './components/homeStats';
+@import './components/menu';
+@import './components/chiffre';
 @import './components/footer';
+@import './components/contactDesktop';
+@import './components/top100';
 @import './components/contact';
-@import './components/partners.scss';
+@import './components/partners';
+
 
 body {
   width: 100%;
