@@ -1,6 +1,5 @@
 # SI_PERFECT
 
-## Intro
 * présentation
 * marketing
   - étude de la concurrence
