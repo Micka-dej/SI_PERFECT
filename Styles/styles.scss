@@ -3,7 +3,11 @@
 @import './mixins/responsive';
 @import './components/header';
 @import './components/homeStats';
+@import './components/menu';
+@import './components/chiffre';
 @import './components/footer';
+@import './components/contactDesktop';
+@import './components/top100';
 
 body {
   width: 100%;
@@ -20,4 +24,5 @@ body {
 
 body {
   background-color: #fff;
+}
 }
